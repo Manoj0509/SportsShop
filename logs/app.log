@@ -1,0 +1,50 @@
+2021-12-16 09:17:37,358 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-16 09:17:37,422 INFO com.OnlineSportsShopApplication [main] Starting OnlineSportsShopApplication using Java 16.0.2 on DESKTOP-41JF8J5 with PID 10188 (C:\Users\MANOJ\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\OnlineSportsShop\bin\main started by MANOJ in C:\Users\MANOJ\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\OnlineSportsShop)
+2021-12-16 09:17:37,422 INFO com.OnlineSportsShopApplication [main] No active profile set, falling back to default profiles: default
+2021-12-16 09:17:38,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-16 09:17:39,081 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 229 ms. Found 10 JPA repository interfaces.
+2021-12-16 09:17:39,740 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8088 (http)
+2021-12-16 09:17:39,750 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8088"]
+2021-12-16 09:17:39,750 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-16 09:17:39,751 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-12-16 09:17:39,883 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-16 09:17:39,883 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2415 ms
+2021-12-16 09:17:40,137 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-16 09:17:40,194 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-16 09:17:40,349 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-16 09:17:40,466 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-16 09:17:41,135 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-16 09:17:41,155 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-12-16 09:17:44,769 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-16 09:17:44,780 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-16 09:17:45,766 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-16 09:17:46,653 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8088"]
+2021-12-16 09:17:46,681 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8088 (http) with context path ''
+2021-12-16 09:17:47,281 INFO com.OnlineSportsShopApplication [main] Started OnlineSportsShopApplication in 10.487 seconds (JVM running for 11.991)
+2021-12-16 09:19:25,717 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8088-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 09:19:25,718 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8088-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-16 09:19:25,721 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8088-exec-1] Completed initialization in 3 ms
+2021-12-16 09:19:25,930 INFO com.controller.CustomerController [http-nio-8088-exec-1] Customers URL is opened
+2021-12-16 09:19:25,930 INFO com.controller.CustomerController [http-nio-8088-exec-1] getAllCustomers() is initiated
+2021-12-16 09:19:25,930 INFO com.controller.CustomerController [http-nio-8088-exec-1] getAllCustomers() has executed
+2021-12-16 09:19:25,930 INFO com.services.CustomerServiceImpl [http-nio-8088-exec-1] getAllCustomer() service is initiated
+2021-12-16 09:19:26,841 INFO com.services.CustomerServiceImpl [http-nio-8088-exec-1] getAllCustomer() service has executed
+2021-12-16 09:28:32,188 INFO com.controller.CustomerController [http-nio-8088-exec-4] addCustomer URL is opened
+2021-12-16 09:28:32,188 INFO com.controller.CustomerController [http-nio-8088-exec-4] addCustomer() is initiated
+2021-12-16 09:28:32,189 INFO com.services.CustomerServiceImpl [http-nio-8088-exec-4] addCustomer() service is initiated
+2021-12-16 09:28:32,607 INFO com.services.CustomerServiceImpl [http-nio-8088-exec-4] addCustomer() service has executed
+2021-12-16 09:28:32,609 INFO com.controller.CustomerController [http-nio-8088-exec-4] addCustomer() is executed
+2021-12-16 09:28:41,595 INFO com.controller.CustomerController [http-nio-8088-exec-6] Customers URL is opened
+2021-12-16 09:28:41,595 INFO com.controller.CustomerController [http-nio-8088-exec-6] getAllCustomers() is initiated
+2021-12-16 09:28:41,595 INFO com.controller.CustomerController [http-nio-8088-exec-6] getAllCustomers() has executed
+2021-12-16 09:28:41,595 INFO com.services.CustomerServiceImpl [http-nio-8088-exec-6] getAllCustomer() service is initiated
+2021-12-16 09:28:41,598 INFO com.services.CustomerServiceImpl [http-nio-8088-exec-6] getAllCustomer() service has executed
+2021-12-16 09:29:17,470 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8088-exec-8] SQL Error: 0, SQLState: 42703
+2021-12-16 09:29:17,470 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8088-exec-8] ERROR: column "id" does not exist
+  Position: 27
+2021-12-16 09:46:01,148 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8088-exec-9] SQL Error: 0, SQLState: 42703
+2021-12-16 09:46:01,149 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8088-exec-9] ERROR: column "id" does not exist
+  Position: 27
+2021-12-16 10:08:58,622 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8088-exec-10] SQL Error: 0, SQLState: 42703
+2021-12-16 10:08:58,623 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8088-exec-10] ERROR: column "id" does not exist
+  Position: 27
